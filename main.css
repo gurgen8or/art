@@ -14,9 +14,10 @@
 
 .jumbotron {
 	background-image:url('aldeyjarfoss.jpg');
-	height: 1000px;
+	height: 1500px;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: 0 -150px;
 }
 
 .jumbotron .container {
@@ -34,7 +35,7 @@
 
 .jumbotron p {
 	font-size: 20px;
-	color: #d3dfe1;
+	color: #FF9933;
 	text-align: center;
 }
 
@@ -64,7 +65,7 @@ ul.first {
 }
 
 #Obj {
-	color: #d3dfe1;
+	color: #FF9933;
 }
 
 .nav {
@@ -81,7 +82,32 @@ ul.pull-right {
 	padding-top: 25px;
 }
 
-.container {
+.row {
 	background: rgba(0,0,0,.5);
 	border-radius: 5%;
+}
+
+.row li {
+	margin: 15px 0;
+}
+
+img {
+	max-width:200px;
+	border-radius: 100%;
+	display:block;
+	margin: 0 auto;
+}
+
+.container a {
+	color: #fff;
+	font-weight: bold;
+}
+
+.container p {
+	color:#fff;
+	font-weight: bold;
+}
+
+.container h1, p {
+	padding: 20px;
 }
