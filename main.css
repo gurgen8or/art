@@ -111,3 +111,11 @@ img {
 .container h1, p {
 	padding: 20px;
 }
+
+.footer p {
+	color: #fff;
+	position: relative;
+	margin-top: 150px;
+	text-align: center;
+	padding: 50px;
+}
