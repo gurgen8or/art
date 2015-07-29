@@ -124,4 +124,6 @@ img {
 	text-align: center;
 	padding: 50px;
 	font-size: 15px;
+	text-shadow: none;
+	font-weight: normal;
 }
