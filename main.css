@@ -13,7 +13,7 @@
 }
 
 .jumbotron {
-	background-image:url('aldeyjarfoss.jpg');
+
 	height: 1500px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -25,18 +25,17 @@
 	top: 100px;
 }
 
-.jumbotron h1 {
+h1 {
 	color: #fff;
 	font-size: 68px;
 	font-family: 'Shift', sans-serif;
 	font-weight: bold;
 	text-align: center;
-	margin-top: -30px;
 	padding: 20px 0px;
 	text-shadow: 1px 1px #FF9933;
 }
 
-.jumbotron p {
+p {
 	font-size: 20px;
 	color: #FF9933;
 	text-align: center;
@@ -118,7 +117,7 @@ img {
 }
 
 .footer p {
-	color: #fff;
+	color: #FF9933;
 	position: relative;
 	margin-top: 150px;
 	text-align: center;
@@ -129,6 +128,12 @@ img {
 }
 
 span {
-	color: #FF9933;
+	color: hsla(0, 100%, 30%, 0.8);
 	text-shadow: none;
+}
+
+body {
+background-image:url('aldeyjarfoss.jpg');
+background-repeat: no-repeat;
+background-size: cover;
 }
