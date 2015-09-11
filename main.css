@@ -128,7 +128,7 @@ img {
 }
 
 span {
-	color: hsla(0, 100%, 30%, 0.8);
+	color: rgba(255, 153, 51, 0.8);
 	text-shadow: none;
 }
 
